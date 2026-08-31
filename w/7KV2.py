@@ -127,10 +127,10 @@ def main():
     ╚════════════════════════════════════════════════════════════════╝
     ╔════════════════════════════════════════════════════════════════╗
     ║Config.ini:                                                     ║
-    ║{Fore.LIGHTCYAN_EX}Digits: {Fore.MAGENTA}{sat_digits}{Ly}                                                   ║
-    ║{Fore.LIGHTCYAN_EX}String: {Fore.MAGENTA}{sat_string}{Ly}                                                   ║
-    ║{Fore.LIGHTCYAN_EX}Punctuation: {Fore.MAGENTA}{sat_punct}{Ly}                                              ║
-    ║{Fore.LIGHTCYAN_EX}Delay: {Fore.MAGENTA}{Delay}{Ly}                                                     ║
+    ║{Fore.LIGHTCYAN_EX}Digits: {Fore.MAGENTA}{sat_digits}{Ly}                                                    ║
+    ║{Fore.LIGHTCYAN_EX}String: {Fore.MAGENTA}{sat_string}{Ly}                                                    ║
+    ║{Fore.LIGHTCYAN_EX}Punctuation: {Fore.MAGENTA}{sat_punct}{Ly}                                               ║
+    ║{Fore.LIGHTCYAN_EX}Delay: {Fore.MAGENTA}{Delay}{Ly}                                                      ║
     ╚════════════════════════════════════════════════════════════════╝
 """)
     proc0()
