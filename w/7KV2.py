@@ -56,7 +56,7 @@ available_usernames = []
 av_list = os.path.join(dir_path, f"available_usernames.txt")
 sample_0 = r"_."
 Lb = Fore.LIGHTBLACK_EX
-Ly = Fore.LIGHTYELLOW_EX
+Ly = Fore.WHITE
 Delay = configur.getfloat("config","default_delay")
 def setconf():
    global string_0
@@ -109,7 +109,7 @@ def main():
     os.system(f"title {__version__} - Connected as {requests.get(sys_url,headers=s_sys_h()).json()['username']}")
     s_sys_h()
     setconf()    
-    print(f"""{Fore.LIGHTYELLOW_EX}
+    print(f"""{Fore.WHITE}
  ██████████ █████                   ████████     ███████████     ███████    ███████████
  ▒███▒▒▒▒███▒▒███                   ███▒▒▒▒███   ▒▒███▒▒▒▒▒███  ███▒▒▒▒▒███ ▒█▒▒▒███▒▒▒█
  ▒▒▒    ███  ▒███ █████ █████ █████▒▒▒    ▒███    ▒███    ▒███ ███     ▒▒███▒   ▒███  ▒ 
@@ -122,15 +122,15 @@ def main():
       Version 3.0 -     {__version__}        {__github__}
            {Fore.LIGHTCYAN_EX}Connected as {requests.get(sys_url,headers=s_sys_h()).json()['username']}{Ly}#{Fore.LIGHTCYAN_EX}{requests.get(sys_url,headers=s_sys_h()).json()['discriminator']}{Ly}
     ╔════════════════════════════════════════════════════════════════╗
-    ║{Fore.LIGHTCYAN_EX}1-{Fore.LIGHTBLACK_EX}[{Fore.YELLOW}Generate names and check{Fore.LIGHTBLACK_EX}]{Ly}                                    ║
-    ║{Fore.LIGHTCYAN_EX}2-{Fore.LIGHTBLACK_EX}[{Fore.YELLOW}Check a specific list{Fore.LIGHTBLACK_EX}]{Ly}                                       ║
+    ║{Fore.LIGHTCYAN_EX}1-{Fore.LIGHTBLACK_EX}[{Fore.MAGENTA}Generate names and check{Fore.LIGHTBLACK_EX}]{Ly}                                    ║
+    ║{Fore.LIGHTCYAN_EX}2-{Fore.LIGHTBLACK_EX}[{Fore.MAGENTA}Check a specific list{Fore.LIGHTBLACK_EX}]{Ly}                                       ║
     ╚════════════════════════════════════════════════════════════════╝
     ╔════════════════════════════════════════════════════════════════╗
     ║Config.ini:                                                     ║
-    ║{Fore.LIGHTCYAN_EX}Digits: {Fore.YELLOW}{sat_digits}{Ly}                                                    ║
-    ║{Fore.LIGHTCYAN_EX}String: {Fore.YELLOW}{sat_string}{Ly}                                                    ║
-    ║{Fore.LIGHTCYAN_EX}Punctuation: {Fore.YELLOW}{sat_punct}{Ly}                                               ║
-    ║{Fore.LIGHTCYAN_EX}Delay: {Fore.YELLOW}{Delay}{Ly}                                                      ║
+    ║{Fore.LIGHTCYAN_EX}Digits: {Fore.MAGENTA}{sat_digits}{Ly}                                                   ║
+    ║{Fore.LIGHTCYAN_EX}String: {Fore.MAGENTA}{sat_string}{Ly}                                                   ║
+    ║{Fore.LIGHTCYAN_EX}Punctuation: {Fore.MAGENTA}{sat_punct}{Ly}                                              ║
+    ║{Fore.LIGHTCYAN_EX}Delay: {Fore.MAGENTA}{Delay}{Ly}                                                     ║
     ╚════════════════════════════════════════════════════════════════╝
 """)
     proc0()
