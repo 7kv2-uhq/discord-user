@@ -273,7 +273,7 @@ def ch_send_webhook(val0:str):
       },
       "author": {
         "name": "7KV2 - Username Found",
-        "url": "https://github.com/suenerve/Discord-Username-Checker",
+        "url": "https://github.com/7kv2-uhq/discord-user",
         "icon_url": "https://cdn-icons-png.flaticon.com/512/5290/5290982.png"
       },
       "thumbnail": {
