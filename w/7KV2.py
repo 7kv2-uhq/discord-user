@@ -126,7 +126,6 @@ def main():
     ║{Fore.LIGHTCYAN_EX}2-{Fore.LIGHTBLACK_EX}[{Fore.MAGENTA}Check a specific list{Fore.LIGHTBLACK_EX}]{Ly}                                       ║
     ╚════════════════════════════════════════════════════════════════╝
     ╔════════════════════════════════════════════════════════════════╗
-    ║Config.ini:                                                     ║
     ║{Fore.LIGHTCYAN_EX}Digits: {Fore.MAGENTA}{sat_digits}{Ly}                                                    ║
     ║{Fore.LIGHTCYAN_EX}String: {Fore.MAGENTA}{sat_string}{Ly}                                                    ║
     ║{Fore.LIGHTCYAN_EX}Punctuation: {Fore.MAGENTA}{sat_punct}{Ly}                                               ║
