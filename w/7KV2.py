@@ -336,7 +336,8 @@ class Discord:
                 self.url, json.dumps(data), headers={"Content-Type": "application/json"}
             )
 if __name__ == "__main__":
-    main()import random
+    main()
+   import random
 import string 
 import requests
 import os
